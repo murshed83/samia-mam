@@ -1,0 +1,154 @@
+body{
+	background:#000 url("ddd.JPG")no-repeat fixed center / 1500px 1200px;
+}
+h1{
+color: black;
+background-color:darkgray;
+text-align :center;
+font-family:lucida console; 
+font-weight: bold;
+font-style: italic;
+font-size: 250%;
+margin-top: 0px;
+text-shadow: 1px 2px gray;
+padding: 50px 25px;
+border: 1px solid white;
+border-radius:50px;
+margin-left: 20%;
+margin-right: 20%;
+}
+h1:hover{
+background-color: ghostwhite;
+border: 1px solid gray;
+}
+h2{
+color: tomato;
+text-align :left;
+background-color: white;
+font-family:Arial Verdana; 
+font-weight: bold;
+font-style: italic;
+font-size: 130%;
+text-decoration: underline;
+}
+p{
+	color: white;
+	background-color:darkcyan;
+	text-align: center;
+	font-family: times new roman;
+	font-size: 135%;
+	border-style:double;
+	border-width: medium;
+	border-color: yellow;
+	border-radius: 5px;
+	outline-style: double;
+    outline-color: indianred;
+    outline-width: medium;
+	padding: 15px;
+    
+}
+img{
+    border-radius: 50px;
+    margin-right: 20%;
+}
+img:hover{
+    opacity: 0.5;
+    border: 2px solid white;
+}
+mark{
+    font-family: sans-serif;
+    font-size: 150%;
+    color:black;
+    background-color: darkcyan;
+    font-style: italic;
+}
+div{
+  width: 500px;
+  padding: 25px 25px;
+  text-align: center;
+  border: 5px solid gray;
+  outline-style: solid;
+  outline-width: thin;
+  margin-left: 30%;
+  font-size: 100%;
+  color:black;
+  font-style: italic;
+  background-color: antiquewhite;
+
+}
+a:link,a:visited {
+  background-color: tomato;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+}
+a:hover{
+	background-color: red;
+	text-decoration: underline;
+
+}
+a:active{
+	background-color: white;
+	text-decoration: underline;
+
+}
+ul{
+	 list-style-type: circle;
+	 list-style-position: inside;
+	 background: tomato;
+     padding: 20px;
+}
+ul li{
+	color: navy blue;
+  background: gray;
+  margin: 8px;
+  font-size: 120%
+}
+li:hover{
+    background:white;
+}
+#etable {
+  font-family: Arial;
+  width: 100%;
+}
+
+#etable td, #etable th {
+  border: 1px solid #ddd;
+  padding: 15px;
+}
+
+#etable tr{
+    background-color:gray;
+    text-align: center;
+}
+
+#etable tr:hover {background-color: #ddd;}
+
+#etable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
+address
+{
+    margin-top: 5%;
+    margin-left: 78%;
+    margin-bottom: 5%;
+    color: white;
+    font-size: 110%;
+    background-color: black;
+}
+address:hover
+{
+    background-color:dimgray;
+}
+span{
+    color: crimson;
+    font-size: 150%;
+    font-style: italic;    
+}
