@@ -1,0 +1,116 @@
+.top{
+  width: 99%;
+  height: 150px;
+  border: 1px solid tomato ;
+  float: left;
+  margin-right:3%;
+  background :url("sunset.jpg")no-repeat fixed center / 1500px 1000px;
+  }
+.left{
+  width: 20.5%;
+  height: 445px;
+  border: 1px solid blue ;
+  float: left;
+  background :url("hotel.jpg") fixed;
+  
+}
+
+.middle{
+  width: 57.7%;
+  height: 445px;
+  border: 1px solid blue ;
+  float: left;
+  background :url("sea.jpg")no-repeat fixed center / 800px 580px;
+}
+.right{
+  width: 20.5%;
+  height: 445px;
+  border: 1px solid blue ;
+  float: left;
+ }
+
+.bottom{
+  width: 99%;
+  height: 130px;
+  border: 1px solid tomato ;
+  float: left;
+  background-color:gray;
+ 
+}
+h1{
+color:lightblue;
+font-size:300%;
+text-align :center;
+font-family:lucida console; 
+font-weight: bold;
+font-style: italic;
+}
+h4{
+color: black;
+text-align :center;
+margin-left:29%;
+font-style: italic;
+}
+p{
+color: LightYellow;
+text-align :left;
+font-style: italic;
+font-size:120%;
+
+}
+h3{
+color: black;
+text-align :center;
+font-weight: bold;
+background:gray;
+border: 1px solid tomato ;
+
+}
+img{
+    margin-top: 0%;
+}
+img:hover{
+    opacity: 0.5;
+    border: 2px solid tomato;
+}
+mark{
+	background:white;
+	color:crimson;
+	font-style: italic;
+	
+}
+address
+{
+    color: white;
+    font-size:100 %;
+	text-align:left;
+	margin-left:85%;
+}
+address:hover{
+    background-color:black;
+}
+&copy{
+	color:white;
+	background-color: black;
+	
+}
+a:link,a:visited {
+  background-color: tomato;
+  color: white;
+  padding: 5px 7px;
+  text-align: center;
+  text-decoration: none;
+  margin-left:5px;
+  display: inline-block;
+
+}
+a:hover{
+	background-color: red;
+	text-decoration: underline;
+
+}
+a:active{
+	background-color: white;
+	text-decoration: underline;
+
+}
